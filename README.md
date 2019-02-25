@@ -26,7 +26,7 @@ Topics:
   * one route for `/` that loads the `MovieList` component.
   * one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
-### [] Part 2:
+### [X] Part 2:
 
 * Make it so that the card in `MovieList` is a link, this should direct the user to the `/movies/{id of movie here}` URL, where `:id` is the id of the individual movie.
 * When a user clicks on a movie card they should be taken to `/movies/{id of movie here}` to see the details for the selected movie.
